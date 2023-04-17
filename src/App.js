@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import anoop from './assets/images/anoop.jpg';
+import Navbar from './components/common/Navbar.js';
+import Body from './components/common/Body.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+      <Navbar/>
+      <div className='image-info'>
+        <img src={anoop} alt='Image' />
+      </div>
+      <Body/>
+   </div>
   );
 }
 

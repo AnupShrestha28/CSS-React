@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500&display=swap');
+
+.image-info{
+    position: relative;
+}
+
+.image-info > img{
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+
+.bio-info{
+  position: relative;
+}
+
+
+.bio-info h4{
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  color: yellowgreen;
+  font-weight: 500;
+}
+
+.bio-info h3{
+  position: absolute;
+  top: 130px;
+  left: 600px;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.bio-info p{
+  position: absolute;
+  overflow-wrap: break-word;
+  top: 180px;
+  left: 600px;
+  width: 110vh;
+  color: #474343;
+}
+
+.bio-info button{
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  background-color: yellowgreen;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+} 
