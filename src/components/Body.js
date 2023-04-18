@@ -36,8 +36,8 @@ class Body extends React.Component{
                         simply dummy text of the printing and typesetting industry.
                         </p>
 
-                        <button className="resume-description-btn">Download CV</button>
-                        <p className="resume-description-sign">Anoop Shrestha</p>
+                        <button className="bio-description-btn">Download CV</button>
+                        <p className="bio-description-sign">Anoop Shrestha</p>
                     </div>
                 </div>
             </>
