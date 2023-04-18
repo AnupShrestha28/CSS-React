@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500&display=swap');
+
+
+.bio-info{
+  display: flex;
+  text-align: left;
+  margin: 0 2rem;
+  background-color: #fff;
+  width: 900px;
+  position: relative;
+}
+
+.image-info > img{
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 600px;
+  width: 450px;
+}
+
+.bio-description{
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 1rem;
+  width: 900px;
+  position: absolute;
+  top: -32rem;
+  left: 500px;
+}
+
+.bio-description > span{
+  color: yellowgreen;
+  font-weight: 600;
+}
+
+.bio-description > h1{
+  margin: 2px;
+  text-transform: uppercase;
+}
+
+.bio-description > p{
+  padding: 0.5rem;
+}
+
+.resume-description-btn{
+  background-color: yellowgreen;
+  outline: none;
+  border: none;
+  margin: 5px;
+  padding: 12px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  max-width: 200px;
+}
+
+.resume-description-sign{
+  text-align: right;
+  margin: 0;
+  font-family: cursive;
+  font-weight: 800;
+}

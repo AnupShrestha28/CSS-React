@@ -1,6 +1,6 @@
 import anoop from './assets/images/anoop.jpg';
-import Navbar from './components/common/Navbar.js';
-import Body from './components/common/Body.js';
+import Navbar from './components/Navbar.js';
+import Body from './components/Body.js';
 
 function App() {
   return (
