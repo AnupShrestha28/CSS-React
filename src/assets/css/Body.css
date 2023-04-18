@@ -46,7 +46,7 @@
   padding: 0.5rem;
 }
 
-.resume-description-btn{
+.bio-description-btn{
   background-color: yellowgreen;
   outline: none;
   border: none;
@@ -58,7 +58,7 @@
   max-width: 200px;
 }
 
-.resume-description-sign{
+.bio-description-sign{
   text-align: right;
   margin: 0;
   font-family: cursive;
